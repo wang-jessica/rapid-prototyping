@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>Jessica's Documentation for 22.03</title>
 
+<xmp theme="journal" style="display:none;">
+
+<topbar style="display:none;">
+	<item><a href="../index.html">Home</a></item>
+	<item><a href="../about.html">About</a></item>
+</topbar>
+
+<!-- This is a comment, it is ignored by the compiler/interpreter -->
+## Week 2 - 
+
+
+
+
+</xmp>
+
+<script src="https://strapdownjs.com/v/0.2/strapdown.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/joedf/strapdown-topbar@latest/assets/strapdown/strapdown-topbar.min.js"></script>
+</html>
