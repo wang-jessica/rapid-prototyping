@@ -10,38 +10,33 @@
 </topbar>
 
 <!-- This is a comment, it is ignored by the compiler/interpreter -->
-## Week 4 - Energy Storage Team Progress
-
-This week, we worked in the specific groups of energy collection, energy storage, and cooking to develop some details about our project. On the storage team, we used the following questions to guide our development:
+## Week 5 - Energy Storage Team Progress
+This week, we received access to a salt box to use when modeling our project. Here are some details:
 <br>
+- made in MIT Central Machine Shop, intended to store heat for 24hrs in a Mongolian heating system
 <br>
-- what form of heat storage (chemical, sensible, latent) is the most efficient for this project?
+- dimensions: 6x7x11 inch exterior, with 0.5 inch thickness
 <br>
-- what heat storage material should be used, considering safety, heat capacity, heat of fusion, corrisivity, and affordability?
+- stainless steel, has been heated before
 <br>
-- how can we control the level of heat being applied to the cooking surface?
-
-<br>
-Storage team's pin up #1 can be found here (references linked within Google Slide): https://docs.google.com/presentation/d/1L8QO2hFe0YEIImoED_7eao3nOXle57VCv-ufpZuIcac/edit?usp=sharing
-<br>
-<br>
-After seeing the other groups' pin ups and discussing how all of our work connects, we concluded that our goal is to provide 400F-450F to the cooking surfacce, with a 100F minimum. We also considered making a partitioned stovetop where each section has a different temperature. This would circumvent the problem of long wait-times when a dish has multiple stages of cooking with different temperatures.
-<br>
-<br>
-We decided that latent heat storage is the most effective method; sensible heat storage would have a varying operating temperature, which can be less predictable and cause waste, and chemical heat storage's high maximum temperature makes execution harder and potentially more dangerous. One large contender for storage material is nitrate eutectic, which is likely available in the MIT MakerSpace and is already commonly used for thermal storage.
-<br>
-<br>
-Latent heat storage means investing thermal energy into the latent heat of a phase change material (PCM). Within a certain range of stored heat, the PCM will not increase in temperature, but will instead store this energy towards changing phases (in our case, melting a solid into a liquid). As the liquid cools down and solidifies again, it releases energy. Below is a diagram of this process.
-<br>
-<img src="./phase change diagram.png" alt="phase change diagram" width="300"/>
+- contains unknown quantity of sodium nitrate and potassium nitrate
 <br>	
-Image source: https://www.researchgate.net/figure/Sensible-and-latent-heat-storage-processes-8_fig3_289377295	
+Salt Box Photo:
+<br>
+<img src="./salt_box.png" alt="salt_box" width="800"/>
+<br>
+<br>
+Given this new parameter, our next step within the storage team is to modify our idea for heat transfer between the PCM and the cooking surface to account for the surface area of the box. Below are three possible heat control mechanisms, each with a different spatial configuration.
+1. slider (previous idea): heat transfer area is half the box surface area, with the other half reserved for horizontal sliding mechanism
+2. vertical fins: heat transfer area is the entire box surface area, with larger height requirement for vertical sliding mechanism
+3. horizontal fins: heat transfer area depends on how large the overhang is between the conducting fins and the box. Two extreme cases are shown
 <br>
 	
-Storage System Sketch:
 <br>
-<img src="./storage system sketch.png" alt="storage system sketch" width="800"/>
 	
+<br>
+
+
 </xmp>
 
 <script src="https://strapdownjs.com/v/0.2/strapdown.js"></script>
